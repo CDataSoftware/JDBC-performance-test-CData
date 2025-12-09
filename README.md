@@ -2,7 +2,8 @@
 ```javac SqlPerformanceTester.java```  
 
 Queries exist in queries.sql. The name for a query is padded by $$. Query is on the next line.  
-Notes: specify the class path for your JDBC driver, along with root directory itself.  
+
+**Note:** specify the class path for your JDBC driver, along with root directory itself.  
 Can specify a speicific query from the queries.sql file, or specify "all."   
 The number at the end is the number of runs for each query.  
 
