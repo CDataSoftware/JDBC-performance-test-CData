@@ -1,0 +1,4 @@
+$$Q1$$
+SELECT Id, Oid, AbbreviatedOid, BranchName, ChangedFilesIfAvailable, Additions, Deletions, AuthoredByCommitter, CommittedViaWeb, AuthoredDate, CommittedDate, ViewerSubscription, ViewerCanSubscribe, Message, MessageBody, MessageHeadline, MessageBodyHTML, MessageHeadlineHTML, ResourcePath, CommitResourcePath, TreeResourcePath, Url, CommitUrl, TarballUrl, TreeUrl, ZipballUrl, AuthorName, AuthorEmail, AuthorDate, AuthorUserLogin, CommitterName, CommitterEmail, CommitterDate, CommitterUserLogin, OnBehalfOfId, OnBehalfOf, SignatureIsValid, Signature, SignatureEmail, SignaturePayload, SignatureState, SignatureSigner, WasSignedByGitHub, SignatureVerifiedAt, StatusId, StatusState, StatusCheckRollupId, StatusCheckRollupState, TreeId, TreeOid, TreeAbbreviatedOid, TreeCommitUrl, TreeCommitResourcePath FROM CData."Repository_pentaho-engineering-samples".Commits;
+$$Q2$$
+SELECT count(*) FROM CData."Repository_pentaho-engineering-samples".Commits;
