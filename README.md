@@ -13,3 +13,6 @@ The number at the end is the number of runs for each query.
 ```java -cp ".;C:\Program Files\CData\CData JDBC Driver for Salesforce 2025\lib\cdata.jdbc.salesforce.jar" SqlPerformanceTester Q1 5```  
 #Command to run - All queries, run 5 times  
 ```java -cp ".;C:\Program Files\CData\CData JDBC Driver for Salesforce 2025\lib\cdata.jdbc.salesforce.jar" SqlPerformanceTester all 5```  
+
+#Running this performance testing harness requires licensed access to a CData driver
+#Intended for demonstration purposes only
